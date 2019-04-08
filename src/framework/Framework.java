@@ -23,18 +23,48 @@ public class Framework {
         par.setCor("Preto");
         par.setTamanho(13005);
         
+        Links lin1 = new Links();
+        lin1.setCor("Azul");
+        lin1.setTamanho(3008);
+        Listas lis1 = new Listas();
+        lis1.setCor("Vermelho");
+        lis1.setTamanho(1036);
+        Paragrafos par1 = new Paragrafos();
+        par1.setCor("Preto");
+        par1.setTamanho(13005);
+        
+        Links lin2 = new Links();
+        lin2.setCor("Azul");
+        lin2.setTamanho(3008);
+        Listas lis2 = new Listas();
+        lis2.setCor("Vermelho");
+        lis2.setTamanho(1036);
+        Paragrafos par2 = new Paragrafos();
+        par2.setCor("Preto");
+        par2.setTamanho(13005);
+        
+        Links lin3 = new Links();
+        lin3.setCor("Azul");
+        lin3.setTamanho(3008);
+        Listas lis3 = new Listas();
+        lis3.setCor("Vermelho");
+        lis3.setTamanho(1036);
+        Paragrafos par3 = new Paragrafos();
+        par3.setCor("Preto");
+        par3.setTamanho(13005);
+        
         not.setLink(lin);
         not.setLista(lis);
         not.setParag(par);
-        desk.setLink(lin);
-        desk.setLista(lis);
-        desk.setParag(par);
-        cel.setLink(lin);
-        cel.setLista(lis);
-        cel.setParag(par);
-        tab.setLink(lin);
-        tab.setLista(lis);
-        tab.setParag(par);
+        desk.setLink(lin1);
+        desk.setLista(lis1);
+        desk.setParag(par1);
+        cel.setLink(lin2);
+        cel.setLista(lis2);
+        cel.setParag(par2);
+        tab.setLink(lin3);
+        tab.setLista(lis3);
+        tab.setParag(par3);
         
         String n;
         int cont =0;
